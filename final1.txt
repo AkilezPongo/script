@@ -1,0 +1,4 @@
+1c1
+< El cuadrado de la suma es:10609
+---
+> 10609
