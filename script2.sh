@@ -12,7 +12,8 @@ do
 	echo "ejecutando $line"
 	echo "$line <p1.in > $line.out "
 	$line <p1.in > $line.out
-
+	echo "checando diferencias $line"
+	diff $line.out out1.txt > $line.res  #.res tiene comparacion
 done    
 
 for line in $(find . -name "*2.c.exe") ;
